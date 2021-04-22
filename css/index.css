@@ -1,4 +1,5 @@
-.header {
+@media (max-width: 1024px){
+  .header {
   height: 56px;
   wedth: 100%;
   box-shadow: 0 0 10px black;
@@ -28,4 +29,6 @@
   line-height: 56px;
   color: white;
   margin-left: 5px;
+}
+
 }
