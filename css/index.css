@@ -1,7 +1,6 @@
-@media (max-width: 1024px){
-  .header {
+.header {
   height: 56px;
-  wedth: 100%;
+  wedth: 1024px;
   box-shadow: 0 0 10px black;
   background-color: black;
   position: fixed;
@@ -31,4 +30,3 @@
   margin-left: 5px;
 }
 
-}
