@@ -30,13 +30,13 @@ a {
   color: #c68400;
 }
 
-ul {
+.pc-nav ul {
   list-style: none;
   margin: 0;
   display: flex;
 }
 
-li {
+.pc-nav li {
   margin: 0 0 0 15px;
   font-size: 14px
 }
@@ -49,4 +49,141 @@ nav {
   margin-top: 150px;
   text-align: center;
   font-size: 25px;
+}
+
+.box1 {
+    position: relative;
+    margin: 100px 500px;
+    padding: 300px 10px 7px;
+    border: solid 2px #5fc2f5;
+}
+.box1 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #5fc2f5;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box1 p {
+    margin: 0; 
+    padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box2 {
+    position: relative;
+    margin: 100px 500px;
+    padding: 300px 10px 7px;
+    border: solid 2px #017500;
+}
+.box2 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #017500;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.box2 p {
+    margin: 0; 
+padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box3 {
+    position: relative;
+    margin: 100px 500px;
+    padding: 300px 10px 7px;
+    border: solid 2px #00456b;
+}
+.box3 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #00456b;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.box3 p {
+    margin: 0; 
+padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box4 {
+    position: relative;
+    margin: 100px 500px;
+    padding: 300px 10px 7px;
+    border: solid 2px #cc6e5f;
+}
+.box4 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #cc6e5f;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.box4 p {
+    margin: 0; 
+padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #162b14;
+    color: white;
+    text-align: center;
+}
+ul.footer-menu li {
+  display: inline;
+}
+
+.btn-gradient-3d-simple {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+  background-image: linear-gradient(#6795fd 0%, #67ceff 100%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #5e7fca;
+  text-align: center;
+}
+
+.btn-gradient-3d-simple:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
 }
