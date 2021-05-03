@@ -121,3 +121,7 @@ ul.footer-menu li {
 .prism {
   top: 75px;
 }
+
+#id_form {
+  margin: 100px 10px;
+}
